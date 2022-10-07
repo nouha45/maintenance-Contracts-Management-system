@@ -1,0 +1,14 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.others{
+    flex:4 !important;
+   
+}
+a:link 
+{ 
+ text-decoration:none; 
+} 

@@ -1,0 +1,93 @@
+.aboutUs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.description{
+    width: 600px;
+    height: 100%;
+    text-align: center;
+}
+
+
+.btn-14,
+.btn-14 *,
+.btn-14 :after,
+.btn-14 :before,
+.btn-14:after,
+.btn-14:before {
+  border: 0 solid;
+  box-sizing: border-box;
+}
+.btn-14 {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-appearance: button;
+  background-color: rgb(222, 238, 223);
+  background-image: none;
+  color: rgb(27, 155, 59);
+  cursor: pointer;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,
+    Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  font-size: 100%;
+  font-weight: 900;
+  line-height: 1.5;
+  margin: 10px;
+  mask-image: -webkit-radial-gradient(rgb(32, 170, 50), #fff);
+  padding: 0;
+  text-transform: uppercase;
+}
+.btn-14:disabled {
+  cursor: default;
+}
+.btn-14:-moz-focusring {
+  outline: auto;
+}
+.btn-14 svg {
+  display: block;
+  
+}
+.btn-14 [hidden] {
+  display: none;
+}
+.btn-14 {
+  background: rgb(90, 204, 109);
+  border-radius: 99rem;
+  border-width: 2px;
+  mask-image: none;
+  overflow: hidden;
+  padding: 0.8rem 3rem;
+  position: relative;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.btn-14 span {
+  mix-blend-mode: difference;
+}
+.btn-14:hover {
+  box-shadow: 0 20px 100px 1px hsla(142, 44%, 95%, 0.2);
+  transform: translateY(-4px);
+  will-change: box-shadow, transform;
+}
+.ButtonequipementList{
+  border:none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    color:rgb(26, 148, 204);
+    margin-bottom: 10px;
+    width: 100px;
+    cursor: pointer;
+}
+
+.ButtonequipementDelete{
+  border:none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    color:rgb(204, 26, 26);
+    margin-bottom: 10px;
+    width: 100px;
+    cursor: pointer;
+  
+}

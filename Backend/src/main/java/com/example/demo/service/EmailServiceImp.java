@@ -1,0 +1,24 @@
+package com.example.demo.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Bean;
+import org.springframework.mail.SimpleMailMessage;
+import org.springframework.mail.javamail.JavaMailSender;
+import org.springframework.scheduling.annotation.Async;
+import org.springframework.stereotype.Service;
+
+@Service("emailService")
+public class EmailServiceImp implements EmailService{
+
+
+    private  JavaMailSender mailSender;
+    @Autowired
+    public EmailServiceImp(JavaMailSender mailSender) {
+        this.mailSender = mailSender;
+    }
+
+    @Async
+    public void sendEmail(SimpleMailMessage email) {
+        mailSender.send(email);
+    }
+}
